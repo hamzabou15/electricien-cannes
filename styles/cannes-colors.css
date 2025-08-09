@@ -1,0 +1,13 @@
+:root{
+  --brand-primary: #0057A0;
+  --brand-gold: #FFD700;
+  --brand-dark: #003a6b;
+  --text-color: #0b2b3a;
+}
+/* Utility classes to use in components */
+.bg-brand { background-color: var(--brand-primary) !important; }
+.text-brand { color: var(--brand-primary) !important; }
+.bg-gold { background-color: var(--brand-gold) !important; }
+.text-gold { color: var(--brand-gold) !important; }
+.btn-primary { background-color: var(--brand-primary); color: white; border-radius: 0.5rem; padding: 0.5rem 1rem; }
+.header { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
